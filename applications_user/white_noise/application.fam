@@ -1,7 +1,7 @@
 App(
     appid="white_noise_generator",
     name="White Noise Generator",
-		author="Christylez Bacon"
+    author="Christylez Bacon"
     apptype=FlipperAppType.EXTERNAL,
     entry_point="white_noise_app",
     requires=["gui", "audio"],
@@ -9,4 +9,5 @@ App(
     fap_icon_assets="images",
     fap_icon="images/icon_10x10.png",
     fap_category="Utilities",
+    fap_description="Generates white noise with volume controls",
 )
